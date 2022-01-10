@@ -9,7 +9,7 @@ const {
 } = require("@solana/web3.js");
 
 //generates new wallet key-pair
-const newPai = new Keypair();
+const newPair = new Keypair();
 
 //stores public and private key
 const publicKey = new PublicKey(newPair._keypair.publicKey).toString();
